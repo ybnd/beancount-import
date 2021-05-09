@@ -36,7 +36,7 @@ const InvalidReferenceElement = styled.div`
 
 const InvalidReferenceFormattedElement = styled.div`
   font-family: monospace;
-  white-space: pre;
+  white-space: pre-wrap;
 `;
 
 const JournalErrorFilename = styled.span`

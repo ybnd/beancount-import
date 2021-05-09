@@ -46,7 +46,7 @@ const PendingEntryElement = styled.div<
 const PendingEntryFormattedElement = styled.div`
   font-family: var(--font-fam-mono);
   font-size: var(--font-size-mono-reg);
-  white-space: pre;
+  white-space: pre-wrap;
 `;
 
 const PendingEntrySourceNameElement = styled.div`

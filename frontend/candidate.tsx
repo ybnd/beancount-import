@@ -94,7 +94,7 @@ const CandidateChangesElement = styled.div<
   cursor: pointer;
   font-family: var(--font-fam-mono);
   font-size: var(--font-size-mono-reg);
-  white-space: pre;
+  white-space: pre-wrap;
   padding: 12px 8px;
   border-bottom: 1px solid var(--color-main-accent);
   min-width: 100%;

@@ -34,7 +34,7 @@ const UnclearedPostingElement = styled.div`
 const UnclearedPostingFormattedElement = styled.div`
   font-family: var(--font-fam-mono);
   font-size: var(--font-size-mono-reg);
-  white-space: pre;
+  white-space: pre-wrap;
 `;
 
 const UnclearedPostingSource = styled.div`
@@ -61,7 +61,7 @@ export class UnclearedPostingComponent extends React.PureComponent<
     const { entry } = this.props;
     const filename = entry.transaction.meta && entry.transaction.meta.filename;
     const lineno = entry.transaction.meta && entry.transaction.meta.lineno;
-    
+
     const formattedText = entry.transaction_formatted;
     return (
       <AssociatedDataViewContext.Consumer>
